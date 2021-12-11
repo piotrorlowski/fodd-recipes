@@ -1,0 +1,132 @@
+body {
+  background-color: #2b3e61;
+}
+
+.App {
+  width: 1240px;
+  background-color: #a8ceee;
+  margin: 50px auto 0;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  box-shadow: 5px 5px #000;
+}
+
+.App-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.FoodForm,
+.FoodList {
+  width: 44%;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #0577c4;
+  display: flex;
+  flex-flow: column nowrap;
+  box-shadow: 5px 5px #000;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.FoodForm {
+  max-height: 200px;
+}
+
+.FoodList {
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.FoodForm-label {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 12px;
+  line-height: 30px;
+}
+
+.FoodForm-input {
+  height: 25px;
+  font-size: 16px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.App-button,
+.FoodForm-addBtn {
+  height: 40px;
+  width: 100%;
+  display: block;
+  background-color: #2b3e61;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 5px 5px #000;
+  margin-bottom: 20px;
+  &:hover {
+    color: #000;
+    cursor: pointer;
+    background-color: #58d458;
+  }
+}
+
+.FoodForm-addBtn {
+  margin-top: 10px;
+}
+
+.FoodListElement-li,
+.FoodIngredient-li {
+  list-style: disc;
+  margin: 0 0 10px 15px;
+}
+
+.FoodList-h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.FoodRecipes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #0577c4;
+  padding: 25px;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 5px 5px #000;
+}
+
+.FoodRecipeElement {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+.FoodRecipeElement-p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.FoodRecipeElement-img {
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.FoodForm-errorMsg {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.FoodListElement-deleteBtn {
+  margin-left: 10px;
+  cursor: pointer;
+}
