@@ -18,6 +18,9 @@ function App() {
   }
   
   function submitForm(event) {
+    console.log("aaaa");
+    console.log("aaaa");
+    console.log("aaaa");
     const allowedIngredients = ["eggs", "beef", "carrot", "onion", "butter", "bread", "cheese", "strawberries", "cream"];
     event.preventDefault();
     if (ingredient !== "" && allowedIngredients.includes(ingredient) && !ingredients.includes(ingredient)) {
